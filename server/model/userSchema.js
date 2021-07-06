@@ -6,14 +6,14 @@ const userSchema = new mongoose.Schema({
         required: true,
         trim: true,
         min: 1,
-        max: 30
+        max: 40
     },
     lastname: {
         type: String,
         required: true,
         trim: true,
         min: 1,
-        max: 30
+        max: 40
     },
     username: {
         type: String,

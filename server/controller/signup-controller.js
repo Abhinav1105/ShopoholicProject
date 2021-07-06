@@ -12,7 +12,7 @@ export const signUp = async (request, response) => {
         response.status(200).json('User successfully registered!!');
         
     } catch (error) {
-        console.log('Error: ', error.message);
+        console.log('Errorr: ', error.message);
     }
     return "Hi";
 }
